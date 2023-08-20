@@ -1,3 +1,25 @@
-h1 {
+.App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+}
+
+.EightBall {
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+
   text-align: center;
+  cursor: pointer;
 }
